@@ -1,0 +1,191 @@
+//Variables
+$head-font: #ffffff
+$small-head-font: #000
+
+
+
+//MIXINS
+=d-m-mixin()
+    display: block
+    margin: auto
+=border-mixin($radius)
+    -moz-border-radius: $radius
+    -webkit-border-radius: $radius
+    border-radius: $radius
+
+
+//STYLES
+
+nav,
+header,
+footer
+    display: block
+    overflow: hidden
+
+
+body
+    background: -o-linear-gradient(to right, #0876a7, #55c6f7)
+    background: -ms-linear-gradient(to right, #0876a7, #55c6f7)
+    background: -webkit-linear-gradient(to right, #0876a7, #55c6f7)
+    background: -moz-linear-gradient(to right, #0876a7, #55c6f7)
+    background: linear-gradient(to right, #0876a7, #55c6f7)
+    line-height: 1
+    margin: auto
+    overflow-x: hidden
+
+
+
+html
+    font-family: 'Arbutus Slab', serif, sans-serif
+
+
+
+.container
+    margin: auto
+
+
+#section-1-gradient
+    background: -webkit-linear-gradient(to right, #0876a7, #55c6f7)
+    background: -o-linear-gradient(to right, #0876a7, #55c6f7)
+    background: -ms-linear-gradient(to right, #0876a7, #55c6f7)
+    background: -moz-linear-gradient(to right, #0876a7, #55c6f7)
+    background: linear-gradient(to right, #0876a7 #55c6f7)
+
+
+h1.ourclinics
+    text-align: center
+    font-size: 100px
+    text-shadow: 1px 1px 2px $head-font
+
+
+h1.header1
+    color: #d22640
+    text-align: center
+    font-size: 80px
+    text-shadow: 1px 1px 2px $head-font
+    +d-m-mixin()
+    line-height: 90px
+
+
+h2.header2
+    color: #7b817f
+    text-align: center
+    font-size: 70px
+    text-shadow: 1px 1px 2px $head-font
+    +d-m-mixin()
+    line-height: 90px
+
+
+h3.header3
+    color: #3d3f4c
+    text-align: center
+    font-size: 40px
+    text-shadow: 1px 1px 2px $head-font
+    +d-m-mixin()
+    line-height: 60px
+
+
+h4
+    color: $head-font
+    text-align: center
+    font-size: 30px
+    text-shadow: 1px 1px 2px $small-head-font
+    +d-m-mixin()
+    line-height: 80px
+
+
+h5
+    color: $small-head-font
+    text-align: center
+    font-size: 20px
+    text-shadow: 1px 1px 2px $head-font
+    +d-m-mixin()
+    line-height: 50px
+
+
+.dadmain
+    +border-mixin(100%)
+    +d-m-mixin()
+    padding-top: 40px
+    padding-bottom: 40px
+
+
+div.dad2 img
+    display: block
+    padding: 0px
+    float: right
+
+
+div.alx
+    width: 100%
+
+
+.lbl1,
+.lbl2
+    color: $head-font
+    font-weight: 600
+    text-shadow: 1px 1px 2px $small-head-font
+    line-height: 120px
+    font-size: 38px
+    text-align: center
+    +d-m-mixin()
+
+
+footer.footsy
+    background-color: $head-font
+    margin-top: 20px
+
+
+
+.footimg
+    +d-m-mixin()
+
+
+p.upp
+    color: $head-font
+    font-size: 18px
+    text-shadow: 1px 1px 2px $small-head-font
+    text-align: center
+    line-height: 40px
+    padding: 5px
+
+
+.alxcln
+    +d-m-mixin()
+    padding-top: 40px
+    padding-bottom: 40px
+    +border-mixin(100%)
+
+
+.vez
+    text-align: center
+    text-decoration-line: none
+    +d-m-mixin()
+
+
+
+.vez img
+    +border-mixin(6%)
+    +d-m-mixin()
+    padding-top: 10px
+    padding-bottom: 10px
+
+
+*
+    box-sizing: border-box
+
+
+#hslideshow
+    +d-m-mixin()
+
+
+.drintro
+    float: right
+
+
+@media screen and (max-width: 680px)
+    .lbl1
+        font-size: 30px
+
+    p.upp
+        font-size: 16px

@@ -1,0 +1,165 @@
+nav,
+header,
+footer {
+  display: block;
+  overflow: hidden; }
+
+body {
+  background: -o-linear-gradient(to right, #0876a7, #55c6f7);
+  background: -ms-linear-gradient(to right, #0876a7, #55c6f7);
+  background: -webkit-linear-gradient(to right, #0876a7, #55c6f7);
+  background: -moz-linear-gradient(to right, #0876a7, #55c6f7);
+  background: linear-gradient(to right, #0876a7, #55c6f7);
+  line-height: 1;
+  margin: auto;
+  overflow-x: hidden; }
+
+html {
+  font-family: "Arbutus Slab", serif, sans-serif; }
+
+.container {
+  margin: auto; }
+
+#section-1-gradient {
+  background: -webkit-linear-gradient(to right, #0876a7, #55c6f7);
+  background: -o-linear-gradient(to right, #0876a7, #55c6f7);
+  background: -ms-linear-gradient(to right, #0876a7, #55c6f7);
+  background: -moz-linear-gradient(to right, #0876a7, #55c6f7);
+  background: linear-gradient(to right, #0876a7 #55c6f7); }
+
+h1.ourclinics {
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 1px 1px 2px #ffffff; }
+
+h1.header1 {
+  color: #d22640;
+  text-align: center;
+  font-size: 80px;
+  text-shadow: 1px 1px 2px #ffffff;
+  display: block;
+  margin: auto;
+  line-height: 90px; }
+
+h2.header2 {
+  color: #7b817f;
+  text-align: center;
+  font-size: 70px;
+  text-shadow: 1px 1px 2px #ffffff;
+  display: block;
+  margin: auto;
+  line-height: 90px; }
+
+h3.header3 {
+  color: #3d3f4c;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px #ffffff;
+  display: block;
+  margin: auto;
+  line-height: 60px; }
+
+h4 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #000;
+  display: block;
+  margin: auto;
+  line-height: 80px; }
+
+h5 {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px #ffffff;
+  display: block;
+  margin: auto;
+  line-height: 50px; }
+
+.dadmain {
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+div.dad2 img {
+  display: block;
+  padding: 0px;
+  float: right; }
+
+div.alx {
+  width: 100%; }
+
+.lbl1,
+.lbl2 {
+  color: #ffffff;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px #000;
+  line-height: 120px;
+  font-size: 38px;
+  text-align: center;
+  display: block;
+  margin: auto; }
+
+footer.footsy {
+  background-color: #ffffff;
+  margin-top: 20px; }
+
+.footimg {
+  display: block;
+  margin: auto; }
+
+p.upp {
+  color: #ffffff;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px #000;
+  text-align: center;
+  line-height: 40px;
+  padding: 5px; }
+
+.alxcln {
+  display: block;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%; }
+
+.vez {
+  text-align: center;
+  text-decoration-line: none;
+  display: block;
+  margin: auto; }
+
+.vez img {
+  -moz-border-radius: 6%;
+  -webkit-border-radius: 6%;
+  border-radius: 6%;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+* {
+  box-sizing: border-box; }
+
+#hslideshow {
+  display: block;
+  margin: auto; }
+
+.drintro {
+  float: right; }
+
+@media screen and (max-width: 680px) {
+  .lbl1 {
+    font-size: 30px; }
+
+  p.upp {
+    font-size: 16px; } }
+
+/*# sourceMappingURL=style.css.map */
